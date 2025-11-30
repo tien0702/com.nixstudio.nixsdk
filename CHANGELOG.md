@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/tien0702/com.nixstudio.nixsdk/compare/v1.0.2...v1.1.0) (2025-11-30)
+
+
+### Features
+
+* DetechIpadDevice, SafeArea ([903c71b](https://github.com/tien0702/com.nixstudio.nixsdk/commit/903c71b9d775c7555f17c807a3f5936d927003f5))
+
 ## [1.0.2](https://github.com/tien0702/com.nixstudio.nixsdk/compare/v1.0.1...v1.0.2) (2025-11-30)
 
 
