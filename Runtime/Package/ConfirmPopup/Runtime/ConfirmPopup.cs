@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
 using NIX.Module.Popup;
-using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine;
 
 namespace NIX.Packages
 {
