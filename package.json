@@ -5,9 +5,6 @@
     "author": {
         "name": "NIX Studio",
         "email": "tientv.0702@gmail.com"
-    }
-    ,
-    "dependencies": {
-        
-    }
+    },
+    "dependencies": {}
 }
