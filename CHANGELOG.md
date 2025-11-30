@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/tien0702/com.nixstudio.nixsdk/compare/v1.0.0...v1.0.1) (2025-11-30)
+
+
+### Bug Fixes
+
+* .releaserc.json ([927ecbf](https://github.com/tien0702/com.nixstudio.nixsdk/commit/927ecbf233b79b491cb936f0a6473f0d59b47dda))
+* change to main branch ([b882ede](https://github.com/tien0702/com.nixstudio.nixsdk/commit/b882eded9c04bc402375e5807e250c4e74933339))
+
 # 1.0.0 (2025-11-30)
 
 
