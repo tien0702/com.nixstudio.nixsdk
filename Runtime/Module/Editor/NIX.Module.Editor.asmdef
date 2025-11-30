@@ -1,0 +1,19 @@
+{
+    "name": "NIX.Module.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2f79c4b795363c6439245ce28b2512cc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Android",
+        "Editor"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
