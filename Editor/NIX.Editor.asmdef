@@ -1,9 +1,11 @@
 {
-    "name": "NIX.Core",
-    "rootNamespace": "NIX.Core",
+    "name": "NIX.Editor",
+    "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
-    "excludePlatforms": [],
+    "excludePlatforms": [
+        "Editor"
+    ],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],

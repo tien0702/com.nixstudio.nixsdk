@@ -1,14 +1,15 @@
 {
-    "name": "NIX.Module.Editor",
+    "name": "NIX.Runtime",
     "rootNamespace": "",
     "references": [
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:80ecb87cae9c44d19824e70ea7229748",
+        "GUID:f37495e901349654b9ba0878f9b58269",
         "GUID:2f79c4b795363c6439245ce28b2512cc"
     ],
     "includePlatforms": [],
-    "excludePlatforms": [
-        "Android",
-        "Editor"
-    ],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
