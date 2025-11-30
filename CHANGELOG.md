@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/tien0702/com.nixstudio.nixsdk/compare/v1.0.1...v1.0.2) (2025-11-30)
+
+
+### Bug Fixes
+
+* test update ([b223179](https://github.com/tien0702/com.nixstudio.nixsdk/commit/b223179eb2797b1e81ac44da20f5aa5f4cafb6cc))
+
 ## [1.0.1](https://github.com/tien0702/com.nixstudio.nixsdk/compare/v1.0.0...v1.0.1) (2025-11-30)
 
 
