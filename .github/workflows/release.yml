@@ -21,10 +21,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "18"
+          cache: npm
+          
       - name: Clean npm cache
         run: npm cache clean --force
+        
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+        
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4
         with:
