@@ -1,3 +1,18 @@
+# [1.2.0](https://github.com/tien0702/com.nixstudio.nixsdk/compare/v1.1.0...v1.2.0) (2025-12-10)
+
+
+### Bug Fixes
+
+* Add npm cache clean step in release workflow ([2067ded](https://github.com/tien0702/com.nixstudio.nixsdk/commit/2067dedff8038ed73b6cb019065627906966f6a1))
+* Enhance release workflow with npm caching ([411298c](https://github.com/tien0702/com.nixstudio.nixsdk/commit/411298c833626542b0ba917e5c182f3e72f838aa))
+* Remove UniTask dependency from package.json ([86f1622](https://github.com/tien0702/com.nixstudio.nixsdk/commit/86f162286d42ef26ac3b067a37632ffd0191e93b))
+* Update Node.js setup in release workflow ([9d2fb81](https://github.com/tien0702/com.nixstudio.nixsdk/commit/9d2fb8142b01394c114a45540a6716d02bcfb859))
+
+
+### Features
+
+* add AudioModule, FeebackCore ([ec6c7a2](https://github.com/tien0702/com.nixstudio.nixsdk/commit/ec6c7a2dbc0e69a042eca15a9e3b5de4d7bbee6a))
+
 # [1.1.0](https://github.com/tien0702/com.nixstudio.nixsdk/compare/v1.0.2...v1.1.0) (2025-11-30)
 
 
