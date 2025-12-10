@@ -3,6 +3,12 @@ using System.Text;
 
 namespace NIX.Core.Utils
 {
+    public enum CurrencyFormatType
+    {
+        Alphabet,
+        Standard
+    }
+
     public static class CurrencyUtils
     {
         private static readonly string[] SuffixesStandard = { "", "K", "M", "B", "T", "Q" };
@@ -68,6 +74,20 @@ namespace NIX.Core.Utils
             }
 
             return sb.ToString();
+        }
+
+        public static string Format(double value, CurrencyFormatType formatType = CurrencyFormatType.Alphabet,
+            int decimals = 2, bool upperCase = false)
+        {
+            switch (formatType)
+            {
+                case CurrencyFormatType.Alphabet: return FormatAlphabet(value, decimals, upperCase);
+                case CurrencyFormatType.Standard: return FormatStandard(value, decimals);
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(formatType), formatType, null);
+            }
+
+            return null;
         }
     }
 }

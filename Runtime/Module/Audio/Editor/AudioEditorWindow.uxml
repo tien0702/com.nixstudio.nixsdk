@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; background-color: rgb(115, 37, 38);">
+        <ui:VisualElement style="flex-grow: 0; flex-direction: row; height: 350px;">
+            <ui:ListView name="CharacterList" style="width: 350px; padding-right: 0; margin-right: 0; background-color: rgb(110, 57, 37); border-bottom-width: 4px; border-top-width: 4px; border-right-width: 4px; border-left-width: 4px; border-top-color: rgb(0, 0, 0); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; border-left-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0);" />
+            <ui:VisualElement style="flex-grow: 1; align-items: flex-end; justify-content: space-around;">
+                <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center; width: 276px; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; background-color: rgb(60, 60, 60);">
+                    <ui:Label text="Label" name="Label" style="-unity-font-style: normal;" />
+                    <ui:Label text="Label" />
+                    <ui:Label text="Label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Foldout text="Foldout" name="Settings">
+            <ui:Button text="Button" />
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>
