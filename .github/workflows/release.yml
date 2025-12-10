@@ -21,6 +21,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "18"
+      - name: Clean npm cache
+        run: npm cache clean --force
       - name: Install dependencies
         run: npm install
       - name: Semantic Release
