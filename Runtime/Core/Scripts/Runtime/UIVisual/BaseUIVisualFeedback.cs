@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace NIX.Core.UI
 {
-    public abstract class BaseUIVisualFeedback : BaseMono
+    public abstract class BaseUIVisualFeedback : MonoBehaviour
     {
         [SerializeField] protected UIVisualEvent _EventType;
         protected BaseUIVisual _UIVisual;

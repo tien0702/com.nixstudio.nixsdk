@@ -7,11 +7,6 @@ namespace NIX.Module.Panel
     {
         protected BaseUIVisualAnim _VisualAnim;
 
-        public override void OnComponentAdded()
-        {
-            _VisualAnim = GetComponentInChildren<BaseUIVisualAnim>();
-        }
-
         public override void Open(Action onOpened = null)
         {
             base.Open(onOpened);

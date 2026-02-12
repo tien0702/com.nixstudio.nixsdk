@@ -5,7 +5,7 @@ using UnityEngine;
 namespace NIX.Module.CommonSO
 {
     [CreateAssetMenu(menuName = "NIX/SO/IntSO")]
-    public class ArrayIntSO : BaseSO
+    public class ArrayIntSO : ScriptableObject
     {
         public int[] Arrays;
 
