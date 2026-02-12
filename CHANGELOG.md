@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/tien0702/com.nixstudio.nixsdk/compare/v1.2.0...v1.3.0) (2026-02-12)
+
+
+### Features
+
+* new ([4082eb2](https://github.com/tien0702/com.nixstudio.nixsdk/commit/4082eb200eb1f14b95be40fa9454fef1b7fef6c6))
+
 # [1.2.0](https://github.com/tien0702/com.nixstudio.nixsdk/compare/v1.1.0...v1.2.0) (2025-12-10)
 
 
