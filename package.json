@@ -1,12 +1,9 @@
 {
     "name": "com.nixstudio.nixsdk",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "displayName": "NIX SDK",
     "author": {
         "name": "NIX Studio",
         "email": "tientv.0702@gmail.com"
-    },
-    "dependencies": {
-        "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.10"
     }
 }
