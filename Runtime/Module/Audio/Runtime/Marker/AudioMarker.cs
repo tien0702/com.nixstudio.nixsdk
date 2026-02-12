@@ -12,22 +12,18 @@
         public string Name;
         public string Description;
         public MarkerType Type;
-        public float StartTime;
-        public float EndTime;
-
-        public float Duration => EndTime - StartTime;
+        public float Time;
 
         public AudioMarker()
         {
             Type = MarkerType.Cue;
         }
 
-        public AudioMarker(string name, float startTime)
+        public AudioMarker(string name, float time)
         {
             Name = name;
-            StartTime = startTime;
+            Time = time;
             Type = MarkerType.Cue;
-            EndTime = 0;
         }
     }
 }

@@ -86,8 +86,6 @@ namespace NIX.Core.Utils
                 default:
                     throw new ArgumentOutOfRangeException(nameof(formatType), formatType, null);
             }
-
-            return null;
         }
     }
 }

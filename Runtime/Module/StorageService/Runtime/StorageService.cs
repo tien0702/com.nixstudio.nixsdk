@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 using NIX.Core.DesignPatterns;
 using UnityEngine;
 
@@ -17,7 +18,7 @@ namespace NIX.Module.StorageService
         }
 
         // Async functions
-        public async Task<bool> SaveAsync<T>(string storageKey, string savedKey, T data)
+        public async UniTask<bool> SaveAsync<T>(string storageKey, string savedKey, T data)
         {
             if (_dataStorage.TryGetValue(storageKey, out var storage))
             {
@@ -28,7 +29,7 @@ namespace NIX.Module.StorageService
             return false;
         }
 
-        public async Task<T> LoadAsync<T>(string storageKey, string savedKey)
+        public async UniTask<T> LoadAsync<T>(string storageKey, string savedKey)
         {
             if (_dataStorage.TryGetValue(storageKey, out var storage))
             {
@@ -39,7 +40,7 @@ namespace NIX.Module.StorageService
             return default(T);
         }
 
-        public async Task<bool> DeleteAsync(string storageKey, string savedKey)
+        public async UniTask<bool> DeleteAsync(string storageKey, string savedKey)
         {
             if (_dataStorage.TryGetValue(storageKey, out var storage))
             {

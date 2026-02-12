@@ -45,7 +45,7 @@ namespace GrowAGarden.Module.Audio
 
                     foreach (var marker in keyList)
                     {
-                        if (ElapsedTime >= marker.StartTime && !_MarkerDict[marker])
+                        if (ElapsedTime >= marker.Time && !_MarkerDict[marker])
                         {
                             _AudioBuild.MarkerEvent?.Invoke(marker);
                             _MarkerDict[marker] = true;

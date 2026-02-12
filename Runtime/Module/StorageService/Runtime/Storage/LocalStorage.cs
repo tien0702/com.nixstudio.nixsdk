@@ -1,4 +1,4 @@
-/*using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
@@ -27,9 +27,11 @@ namespace NIX.Module.StorageService
             return props;
         }
     }
+
     public class LocalStorage : IDataStorage
     {
         protected string _StorageKey;
+
         protected readonly JsonSerializerSettings _JsonSetting = new JsonSerializerSettings
         {
             ContractResolver = new PublicFieldsOnlyContractResolver(),
@@ -37,13 +39,14 @@ namespace NIX.Module.StorageService
             MissingMemberHandling = MissingMemberHandling.Ignore,
             Formatting = Formatting.None
         };
+
         public string StorageKey => _StorageKey;
 
         public LocalStorage()
         {
             _StorageKey = "Player";
         }
-        
+
         public LocalStorage(string storageKey)
         {
             _StorageKey = storageKey;
@@ -97,4 +100,4 @@ namespace NIX.Module.StorageService
             }
         }
     }
-}*/
+}
