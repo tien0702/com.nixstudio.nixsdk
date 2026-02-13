@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/tien0702/com.nixstudio.nixsdk/compare/v1.3.0...v1.4.0) (2026-02-13)
+
+
+### Features
+
+* DataSystem ([9abd391](https://github.com/tien0702/com.nixstudio.nixsdk/commit/9abd3911a03bee426c69fcfda74f58c53537de08))
+
 # [1.3.0](https://github.com/tien0702/com.nixstudio.nixsdk/compare/v1.2.0...v1.3.0) (2026-02-12)
 
 
