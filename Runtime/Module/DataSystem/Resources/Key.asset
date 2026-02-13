@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349b2275706747f280f56b6008578e20, type: 3}
+  m_Name: Key
+  m_EditorClassIdentifier: 
+  Encrypt: 0
+  _Key: gggg
+  _Data:
+    Currencies:
+    - Id: 60130618
+      Qty: 564429328
+    - Id: 209011476
+      Qty: 525640769
+    - Id: 2068406396
+      Qty: 802352808
+    - Id: 1378747487
+      Qty: 1579888854
+    - Id: 454119597
+      Qty: 674888834
+    - Id: 245032464
+      Qty: 850175892
+    Items:
+    - Id: it1
+      Qty: 0
+      Status: 
+      TakeAt: 
+      Params: 
